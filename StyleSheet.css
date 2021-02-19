@@ -1,0 +1,67 @@
+hgroup{
+    text-align: center;
+}
+.home{
+    color: palevioletred;
+    font-size: 100px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+h1{
+    color: palevioletred;
+    font-size: 70px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+hgroup  a{ /*per tutti i tag contenuti in un hgroup, anche se non direttamente */
+    font-size: 30px;
+}
+hgroup  a:hover{ 
+    background-color: rgb(236, 177, 197);
+}
+hgroup  a:link{ 
+    color:rgb(255, 255, 255);
+}
+hgroup  a:visited{
+    color:rgb(153, 144, 152);
+}
+.video{
+    text-align: center;
+}
+h1.secondario{
+    color: palevioletred;
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+h2{
+    color: palevioletred;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: oblique;
+}
+form{
+    text-align: center;
+}
+input[type="submit"]{
+    background-color: white;
+    color:tomato;
+    width: 100px;
+    height: 40px;
+    border-style: dotted;
+    border-color: rgb(36, 175, 66);
+}
+input[type="button"]{
+    background-color: rgb(233, 140, 171);
+    color:white;
+    font-weight: bolder;
+    width: 180px;
+    height: 40px;
+    border-radius: 30%;
+    border-color: white;
+}
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: gray;
+    font-size: 20px;
+}
